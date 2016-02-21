@@ -1,0 +1,14 @@
+name = "ARCOMM AI";
+picture = "logo.paa";
+actionName = "Website";
+action = "http://www.arcomm.co";
+description = "ARCOMM's in-house AI modification.";
+logo = "logo.paa";
+logoOver = "logo.paa";
+tooltip = "ARCOMM AI";
+tooltipOwned = "ARCOMM AI";
+overview = "ARCOMM's in-house AI modification.";
+author = "Ed, Kingsley";
+overviewPicture = "logo.paa";
+overviewText = "ARCOMM's in-house AI modification.";
+overviewFootnote = "This mod is only to be used by the ARCOMM community.";
