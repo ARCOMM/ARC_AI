@@ -42,14 +42,14 @@
 		{ \
 			aiDispersionCoefX = 35; \
 			aiDispersionCoefY = 30; \
-			aiRateOfFire = 0.5; \
+			aiRateOfFire = 0.1; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
-			minRangeProbab = 0.89999998; \
+			minRangeProbab = 1; \
 			midRange = 150; \
-			midRangeProbab = 0.80000001; \
+			midRangeProbab = 0.75; \
 			maxRange = 250; \
-			maxRangeProbab = 0.30000001; \
+			maxRangeProbab = 0.5; \
 			burst = "12 + round random 9"; \
 			dispersion = 0.002; \
 			class BaseSoundModeType; \
@@ -64,11 +64,11 @@
 			aiRateOfFire = 0.1; \
 			aiRateOfFireDistance = 600; \
 			minRange = 251; \
-			minRangeProbab = 0.80000001; \
+			minRangeProbab = 0.5; \
 			midRange = 400; \
-			midRangeProbab = 0.69999999; \
+			midRangeProbab = 0.75; \
 			maxRange = 600; \
-			maxRangeProbab = 0.4; \
+			maxRangeProbab = 1; \
 			dispersion = 0.002; \
 			class BaseSoundModeType; \
 			class StandardSound: BaseSoundModeType {}; \
@@ -86,14 +86,14 @@
 		{ \
 			aiDispersionCoefX = 38; \
 			aiDispersionCoefY = 30; \
-			aiRateOfFire = 0.5; \
+			aiRateOfFire = 0.1; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
-			minRangeProbab = 0.89999998; \
+			minRangeProbab = 1; \
 			midRange = 150; \
-			midRangeProbab = 0.80000001; \
+			midRangeProbab = 0.75; \
 			maxRange = 250; \
-			maxRangeProbab = 0.30000001; \
+			maxRangeProbab = 0.5; \
 			burst = "12 + round random 9"; \
 			dispersion = 0.002; \
 			class BaseSoundModeType; \
@@ -108,11 +108,11 @@
 			aiRateOfFire = 0.1; \
 			aiRateOfFireDistance = 600; \
 			minRange = 251; \
-			minRangeProbab = 0.80000001; \
+			minRangeProbab = 0.5; \
 			midRange = 400; \
-			midRangeProbab = 0.69999999; \
+			midRangeProbab = 0.75; \
 			maxRange = 600; \
-			maxRangeProbab = 0.4; \
+			maxRangeProbab = 1; \
 			dispersion = 0.002; \
 			class BaseSoundModeType; \
 			class StandardSound: BaseSoundModeType {}; \
@@ -174,14 +174,14 @@
 		{ \
 			aiDispersionCoefX = 35; \
 			aiDispersionCoefY = 35; \
-			aiRateOfFire = 0.3; \
-			aiRateOfFireDistance = 800; \
+			aiRateOfFire = 0.1; \
+			aiRateOfFireDistance = 400; \
 			minRange = 0; \
-			minRangeProbab = 0.89999998; \
+			minRangeProbab = 1; \
 			midRange = 400; \
-			midRangeProbab = 0.80000001; \
+			midRangeProbab = 1; \
 			maxRange = 800; \
-			maxRangeProbab = 0.30000001; \
+			maxRangeProbab = 1; \
 			burst = "18 + round random 9"; \
 			dispersion = 0.002; \
 			class BaseSoundModeType; \
