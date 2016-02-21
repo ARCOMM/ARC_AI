@@ -42,7 +42,7 @@
 		{ \
 			aiDispersionCoefX = 35; \
 			aiDispersionCoefY = 30; \
-			aiRateOfFire = 1; \
+			aiRateOfFire = 0.5; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
 			minRangeProbab = 0.89999998; \
@@ -61,7 +61,7 @@
 			aiDispersionCoefX = 35; \
 			aiDispersionCoefY = 30; \
 			burst = "3 + round random 3"; \
-			aiRateOfFire = 1; \
+			aiRateOfFire = 0.1; \
 			aiRateOfFireDistance = 600; \
 			minRange = 251; \
 			minRangeProbab = 0.80000001; \
@@ -86,7 +86,7 @@
 		{ \
 			aiDispersionCoefX = 38; \
 			aiDispersionCoefY = 30; \
-			aiRateOfFire = 1; \
+			aiRateOfFire = 0.5; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
 			minRangeProbab = 0.89999998; \
@@ -105,7 +105,7 @@
 			aiDispersionCoefX = 36; \
 			aiDispersionCoefY = 30; \
 			burst = "3 + round random 3"; \
-			aiRateOfFire = 1; \
+			aiRateOfFire = 0.1; \
 			aiRateOfFireDistance = 600; \
 			minRange = 251; \
 			minRangeProbab = 0.80000001; \
@@ -174,7 +174,7 @@
 		{ \
 			aiDispersionCoefX = 35; \
 			aiDispersionCoefY = 35; \
-			aiRateOfFire = 1; \
+			aiRateOfFire = 0.3; \
 			aiRateOfFireDistance = 800; \
 			minRange = 0; \
 			minRangeProbab = 0.89999998; \
@@ -183,7 +183,7 @@
 			maxRange = 800; \
 			maxRangeProbab = 0.30000001; \
 			burst = "18 + round random 9"; \
-			dispersion = 0.003; \
+			dispersion = 0.002; \
 			class BaseSoundModeType; \
 			class StandardSound: BaseSoundModeType {}; \
 			class SilencedSound: BaseSoundModeType {}; \
