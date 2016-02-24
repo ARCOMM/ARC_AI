@@ -86,10 +86,43 @@ class CfgWeapons
 	PROTO(LMG_Mk200_F)
 	PROTO(rhs_weap_ak74m)
 
-	#include "rifles.hpp"
-	#include "smg.hpp"
-	#include "dmr.hpp"
-	#include "mg.hpp"
+	RIFLE(rhs_weapon_base, Weapon_Base_F)
+	RIFLE(Rifle, RifleCore)
+	RIFLE(Rifle_Base_F, Rifle)
+	RIFLE(Rifle_Long_Base_F, Rifle_Base_F)
+	RIFLE(arifle_MX_Base_F, Rifle_Base_F)
+	RIFLE(arifle_Katiba_Base_F, Rifle_Base_F)
+	RIFLE(mk20_base_F, Rifle_Base_F)
+	RIFLE(Tavor_base_F, Rifle_Base_F)
+	RIFLE(rhs_weap_m4_Base, arifle_MX_Base_F)
+	RIFLE(hlc_ak_base, Rifle_Base_F)
+	RIFLE(hlc_rifle_ak74, hlc_ak_base)
+	RIFLE(rhs_weap_ak74m_Base_F, Rifle_Base_F)
+	RIFLE(rhs_weap_akm, rhs_weap_ak74m)
+	RIFLE(rhs_weap_akms, rhs_weap_akm)
+	RIFLE(rhs_weap_akms_gp25, rhs_weap_akm)
+	RIFLE(rhs_weap_ak103_base, rhs_weap_akm)
+	RIFLE(rhs_weap_ak74, rhs_weap_ak74m)
+	RIFLE(rhs_weap_aks74, rhs_weap_ak74)
+	RIFLE(rhs_weap_aks74u, rhs_weap_aks74)
+
+	SMG(SDAR_base_F, Rifle_Base_F)
+	SMG(pdw2000_base_F, Rifle_Base_F)
+	SMG(SMG_01_Base, Rifle_Base_F)
+	SMG(SMG_02_base_F, Rifle_Base_F)
+
+	DMR(DMR_03_base_F, Rifle_Long_Base_F)
+	DMR(DMR_05_base_F, Rifle_Long_Base_F)
+	DMR(DMR_06_base_F, Rifle_Long_Base_F)
+
+	MG(MMG_01_base_F, Rifle_Long_Base_F)
+	MG(MMG_02_base_F, Rifle_Long_Base_F)
+	MG(rhs_weap_M249_base, LMG_Mk200_F)
+	MG(rhs_weap_m240_base, rhs_weap_M249_base)
+	MG(rhs_weap_pkp, rhs_pkp_base)
+	MG(rhs_weap_pkm, rhs_weap_pkp)
+	MG(rhs_weap_rpk74m, rhs_weap_pkp)
+	MG(rhs_weap_rpk74, rhs_weap_rpk74m)
 
 	GL(GP25_Base, UGL_F)
 };
