@@ -41,7 +41,7 @@
 		class ARC_AI_FullAuto: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 35; \
-			aiDispersionCoefY = 30; \
+			aiDispersionCoefY = 25; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
@@ -59,7 +59,7 @@
 		class ARC_AI_Burst: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 35; \
-			aiDispersionCoefY = 30; \
+			aiDispersionCoefY = 25; \
 			burst = "3 + round random 3"; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 600; \
@@ -85,7 +85,7 @@
 		class ARC_AI_FullAuto: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 38; \
-			aiDispersionCoefY = 30; \
+			aiDispersionCoefY = 25; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
@@ -103,7 +103,7 @@
 		class ARC_AI_Burst: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 36; \
-			aiDispersionCoefY = 30; \
+			aiDispersionCoefY = 25; \
 			burst = "3 + round random 3"; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 600; \
@@ -129,7 +129,7 @@
 		class ARC_AI_FullAuto: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 32; \
-			aiDispersionCoefY = 28; \
+			aiDispersionCoefY = 25; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
@@ -147,7 +147,7 @@
 		class ARC_AI_Burst: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 32; \
-			aiDispersionCoefY = 28; \
+			aiDispersionCoefY = 25; \
 			burst = "3 + round random 3"; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 600; \
@@ -168,12 +168,12 @@
 	class ##CNAME##: ##PNAME## \
 	{ \
 		aiDispersionCoefX = 35; \
-		aiDispersionCoefY = 35; \
+		aiDispersionCoefY = 25; \
 		modes[] = {"ARC_AI_MGBurst"}; \
 		class ARC_AI_MGBurst: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 35; \
-			aiDispersionCoefY = 35; \
+			aiDispersionCoefY = 25; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 800; \
 			minRange = 0; \
@@ -183,7 +183,7 @@
 			maxRange = 800; \
 			maxRangeProbab = 0.30000001; \
 			burst = "18 + round random 9"; \
-			dispersion = 0.003; \
+			dispersion = 0.002; \
 			class BaseSoundModeType; \
 			class StandardSound: BaseSoundModeType {}; \
 			class SilencedSound: BaseSoundModeType {}; \
