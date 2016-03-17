@@ -36,21 +36,21 @@
 	class ##CNAME##: ##PNAME## \
 	{ \
 		aiDispersionCoefX = 35; \
-		aiDispersionCoefY = 30; \
+		aiDispersionCoefY = 35; \
 		modes[] = {"ARC_AI_FullAuto", "ARC_AI_Burst"}; \
 		class ARC_AI_FullAuto: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 35; \
-			aiDispersionCoefY = 25; \
-			aiRateOfFire = 1; \
-			aiRateOfFireDistance = 250; \
+			aiDispersionCoefY = 35; \
+			aiRateOfFire = 0.5; \
+			aiRateOfFireDistance = 400; \
 			minRange = 0; \
 			minRangeProbab = 0.89999998; \
-			midRange = 150; \
+			midRange = 200; \
 			midRangeProbab = 0.80000001; \
-			maxRange = 250; \
+			maxRange = 400; \
 			maxRangeProbab = 0.30000001; \
-			burst = "12 + round random 9"; \
+			burst = "8 + round random 6"; \
 			dispersion = 0.002; \
 			class BaseSoundModeType; \
 			class StandardSound: BaseSoundModeType {}; \
@@ -59,15 +59,15 @@
 		class ARC_AI_Burst: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 35; \
-			aiDispersionCoefY = 25; \
+			aiDispersionCoefY = 35; \
 			burst = "3 + round random 3"; \
-			aiRateOfFire = 1; \
-			aiRateOfFireDistance = 600; \
-			minRange = 251; \
+			aiRateOfFire = 0.5; \
+			aiRateOfFireDistance = 800; \
+			minRange = 401; \
 			minRangeProbab = 0.80000001; \
-			midRange = 400; \
+			midRange = 600; \
 			midRangeProbab = 0.69999999; \
-			maxRange = 600; \
+			maxRange = 800; \
 			maxRangeProbab = 0.4; \
 			dispersion = 0.002; \
 			class BaseSoundModeType; \
@@ -80,13 +80,13 @@
 	class ##CNAME##: ##PNAME## \
 	{ \
 		aiDispersionCoefX = 38; \
-		aiDispersionCoefY = 30; \
+		aiDispersionCoefY = 35; \
 		modes[] = {"ARC_AI_FullAuto", "ARC_AI_Burst"}; \
 		class ARC_AI_FullAuto: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 38; \
-			aiDispersionCoefY = 25; \
-			aiRateOfFire = 1; \
+			aiDispersionCoefY = 35; \
+			aiRateOfFire = 0.5; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
 			minRangeProbab = 0.89999998; \
@@ -94,7 +94,7 @@
 			midRangeProbab = 0.80000001; \
 			maxRange = 250; \
 			maxRangeProbab = 0.30000001; \
-			burst = "12 + round random 9"; \
+			burst = "6 + round random 6"; \
 			dispersion = 0.002; \
 			class BaseSoundModeType; \
 			class StandardSound: BaseSoundModeType {}; \
@@ -103,9 +103,9 @@
 		class ARC_AI_Burst: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 36; \
-			aiDispersionCoefY = 25; \
+			aiDispersionCoefY = 35; \
 			burst = "3 + round random 3"; \
-			aiRateOfFire = 1; \
+			aiRateOfFire = 0.5; \
 			aiRateOfFireDistance = 600; \
 			minRange = 251; \
 			minRangeProbab = 0.80000001; \
@@ -129,7 +129,7 @@
 		class ARC_AI_FullAuto: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 32; \
-			aiDispersionCoefY = 25; \
+			aiDispersionCoefY = 28; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 250; \
 			minRange = 0; \
@@ -147,7 +147,7 @@
 		class ARC_AI_Burst: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 32; \
-			aiDispersionCoefY = 25; \
+			aiDispersionCoefY = 28; \
 			burst = "3 + round random 3"; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 600; \
@@ -168,12 +168,12 @@
 	class ##CNAME##: ##PNAME## \
 	{ \
 		aiDispersionCoefX = 35; \
-		aiDispersionCoefY = 25; \
+		aiDispersionCoefY = 35; \
 		modes[] = {"ARC_AI_MGBurst"}; \
 		class ARC_AI_MGBurst: Mode_FullAuto \
 		{ \
 			aiDispersionCoefX = 35; \
-			aiDispersionCoefY = 25; \
+			aiDispersionCoefY = 35; \
 			aiRateOfFire = 1; \
 			aiRateOfFireDistance = 800; \
 			minRange = 0; \
@@ -188,10 +188,4 @@
 			class StandardSound: BaseSoundModeType {}; \
 			class SilencedSound: BaseSoundModeType {}; \
 		}; \
-	};
-
-#define DANGER(CNAME, PNAME) \
-	class ##CNAME##: ##PNAME## \
-	{ \
-		fsmDanger = "\@arc_ai\behaviour\danger.fsm"; \
 	};
