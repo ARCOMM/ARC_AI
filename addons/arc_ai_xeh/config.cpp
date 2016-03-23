@@ -11,11 +11,11 @@ class CfgPatches {
 };
 
 class CfgFunctions {
-	class ARC_AI {
-		class xeh {
-			file = "\arc_ai_xeh\functions";
-			class init {};
-		};
+    class ARC_AI {
+        class xeh {
+            file = "\arc_ai_xeh\functions";
+            class init {};
+        };
     };
 };
 
