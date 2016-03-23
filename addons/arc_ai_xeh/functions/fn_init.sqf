@@ -1,11 +1,6 @@
-private ["_unit"];
+private _unit = _this select 0;
 
-_unit = _this select 0;
-
-_isMan = _unit isKindOf "CAManBase";
-_side = side _unit;
-
-if (isPlayer _unit || !(_side in [west,east,resistance,civilian])) exitWith {};
+if (isPlayer _unit || !((side _unit) in [west,east,resistance,civilian])) exitWith {};
 
 _unit disableAI "AUTOCOMBAT";
 _unit disableAI "SUPPRESSION";
