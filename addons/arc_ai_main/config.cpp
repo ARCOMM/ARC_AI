@@ -286,7 +286,6 @@ class CfgPatches {
             "rhsusf_infantry",
             "rhsusf_weapons2",
             "ace_common",
-            "ace_rhs_c_weapons_comp",
             "rhs_a2port_armor",
             "RHS_US_A2_AirImport",
             "RHS_US_A2Port_Armor",
@@ -312,8 +311,7 @@ class CfgPatches {
             "rhsusf_rg33",
             "rhsusf_a2port_air2",
             "rhsusf_a2port_air",
-            "rhsusf_a2port_armor",
-            "ace_rhsusf_c_weapons_comp"
+            "rhsusf_a2port_armor"
         };
     };
 };

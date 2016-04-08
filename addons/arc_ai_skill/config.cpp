@@ -11,7 +11,7 @@ class CfgPatches {
 };
 
 class CfgAISkill {
-    aimingAccuracy[] = {0,0,1,0};
+    aimingAccuracy[] = {0,0.15,1,0.15};
     aimingShake[] = {0,0.1,1,0.1};
     aimingSpeed[] = {0,0.75,1,0.75};
     commanding[] = {0,1,1,1};
