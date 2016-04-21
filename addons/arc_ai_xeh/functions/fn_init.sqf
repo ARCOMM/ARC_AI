@@ -12,5 +12,5 @@ _unit allowFleeing 0;
 
 _unit addEventHandler ["Reloaded", {
     params ["_unit","_weapon","_muzzle","_newMag","_oldMag"];
-    _unit addMagazine (_oldMag select 0);
+    _unit addMagazine [(_oldMag select 0), 1E6];
 }];
