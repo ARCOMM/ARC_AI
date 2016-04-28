@@ -29,6 +29,9 @@
 			midRangeProbab = 0; \
 			minRange = 2000; \
 			minRangeProbab = 0; \
+			class BaseSoundModeType; \
+			class StandardSound: BaseSoundModeType {}; \
+			class SilencedSound: BaseSoundModeType {}; \
 		}; \
 	};
 
