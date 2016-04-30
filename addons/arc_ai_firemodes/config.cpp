@@ -31,8 +31,9 @@ class Mode_Burst;
 class Mode_FullAuto;
 
 class CfgAmmo {
-    class Default;
-    class GrenadeHand;
+    PROTO(Default)
+    PROTO(GrenadeHand)
+    
     GRENADE(GrenadeCore, Default)
     GRENADE(Grenade, Default)
     GRENADE(rhs_ammo_rgd5, GrenadeHand)
@@ -44,6 +45,8 @@ class CfgAmmo {
     GRENADE(rhs_ammo_rgo, rhs_ammo_rgo_base)
     GRENADE(rhs_ammo_rgo_sub, rhs_ammo_rgo_base)
     GRENADE(rhs_ammo_rgo_exp, rhs_ammo_rgo_base)
+    
+    #include "launchers.hpp"
 };
 
 class CfgWeapons {
@@ -51,8 +54,10 @@ class CfgWeapons {
     #include "smg.hpp"
     #include "dmr.hpp"
     #include "mg.hpp"
+    #include "launchers_wep.hpp"
     
-    class Default;
+    PROTO(Default)
+    
     GL(GrenadeLauncher, Default)
     GL(UGL_F, GrenadeLauncher)
     GL(GP25_Base, UGL_F)
