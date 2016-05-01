@@ -1,3 +1,4 @@
+#include "\userconfig\arc_ai\macros.hpp"
 #include "macros.hpp"
 
 class CfgPatches {
@@ -45,8 +46,6 @@ class CfgAmmo {
     GRENADE(rhs_ammo_rgo, rhs_ammo_rgo_base)
     GRENADE(rhs_ammo_rgo_sub, rhs_ammo_rgo_base)
     GRENADE(rhs_ammo_rgo_exp, rhs_ammo_rgo_base)
-    
-    #include "launchers.hpp"
 };
 
 class CfgWeapons {
@@ -54,7 +53,6 @@ class CfgWeapons {
     #include "smg.hpp"
     #include "dmr.hpp"
     #include "mg.hpp"
-    #include "launchers_wep.hpp"
     
     PROTO(Default)
     
