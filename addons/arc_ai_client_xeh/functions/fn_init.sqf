@@ -4,7 +4,9 @@ if (isPlayer _unit || !((side _unit) in [west,east,resistance,civilian])) exitWi
 
 _unit addEventHandler ["Reloaded", {
     params [["_unit",objNull],"_weapon","_muzzle","_newMag",["_oldMag",[""]]];
-    _unit addMagazine [(_oldMag select 0), 1E6];
+    if (!isPlayer _unit && {typeName _oldMag == "ARRAY"} && {count _oldMag > 0} && {typeName (_oldMag select 0) == "STRING"}) then {
+        _unit addMagazine [(_oldMag select 0), 1E6];
+    };
 }];
 
 if (!local _unit) exitWith {};
