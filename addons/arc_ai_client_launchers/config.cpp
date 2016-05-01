@@ -1,7 +1,7 @@
 #include "macros.hpp"
 
 class CfgPatches {
-    class arc_ai_launchers {
+    class arc_ai_client_launchers {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.54;
