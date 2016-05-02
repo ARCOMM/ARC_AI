@@ -9,9 +9,3 @@
         whistleDist = 24;\
         cost = 10;\
     };
-    
-#define LAUNCHER_WEP(CNAME, PNAME) \
-    class ##CNAME##: ##PNAME## {\
-        aiDispersionCoefX = 35; \
-        aiDispersionCoefY = 35; \
-    };
