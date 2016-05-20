@@ -466,4 +466,5 @@ class CfgAmmo {
     LAUNCHER(ACE_Javelin_FGM148, MissileBase)
     LAUNCHER(ACE_Javelin_FGM148_static, MissileBase)
     LAUNCHER(RHS_ammo_BGM109, MissileBase)
+    LAUNCHER(rhs_ammo_m72a7_rocket, rhs_ammo_M136_hedp_rocket)
 };
