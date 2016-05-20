@@ -27,3 +27,5 @@ SMG(SMG_03_khaki, SMG_03_black)
 SMG(SMG_03C_black, SMG_03C_BASE)
 SMG(SMG_03C_camo, SMG_03C_black)
 SMG(SMG_03C_khaki, SMG_03C_black)
+
+SMG(rhsusf_weap_MP7A1_base_f, SMG_01_F)
