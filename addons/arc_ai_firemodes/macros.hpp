@@ -1,5 +1,5 @@
 #define PROTO(CNAME) \
-    class ##CNAME##;
+    class ##CNAME##
 
 #define GRENADE(CNAME, PNAME) \
     class ##CNAME##: ##PNAME## \
@@ -7,7 +7,7 @@
         aiAmmoUsageFlags = 32; \
         allowAgainstInfantry = 0; \
         cost = 1000000; \
-    };
+    }
 
 #define GL(CNAME, PNAME) \
     class ##CNAME##: ##PNAME## \
@@ -33,7 +33,7 @@
             class StandardSound: BaseSoundModeType {}; \
             class SilencedSound: BaseSoundModeType {}; \
         }; \
-    };
+    }
 
 #define RIFLE(CNAME, PNAME) \
     class ##CNAME##: ##PNAME## \
@@ -77,7 +77,7 @@
             class StandardSound: BaseSoundModeType {}; \
             class SilencedSound: BaseSoundModeType {}; \
         }; \
-    };
+    }
 
 #define SMG(CNAME, PNAME) \
     class ##CNAME##: ##PNAME## \
@@ -121,7 +121,7 @@
             class StandardSound: BaseSoundModeType {}; \
             class SilencedSound: BaseSoundModeType {}; \
         }; \
-    };
+    }
 
 #define DMR(CNAME, PNAME) \
     class ##CNAME##: ##PNAME## \
@@ -165,7 +165,7 @@
             class StandardSound: BaseSoundModeType {}; \
             class SilencedSound: BaseSoundModeType {}; \
         }; \
-    };
+    }
 
 #define MG(CNAME, PNAME) \
     class ##CNAME##: ##PNAME## \
@@ -191,4 +191,4 @@
             class StandardSound: BaseSoundModeType {}; \
             class SilencedSound: BaseSoundModeType {}; \
         }; \
-    };
+    }
