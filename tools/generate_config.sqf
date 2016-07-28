@@ -41,6 +41,7 @@ _output = _output + "};";
 _bases = [];
 _output = _output + _br + _br + "class CfgWeapons {" + _br;
 private _parsedWeapons = [];
+private _patches = [];
 
 {
     private _patch = _x;
@@ -68,6 +69,8 @@ private _parsedWeapons = [];
             
             false
         } count _weapons;
+        
+        _patches pushBack (configName _patch);
     };
     
     false
@@ -106,5 +109,13 @@ private _parsedWeapons = [];
 } count _parsedWeapons;
 
 _output = _output + "};";
+
+copyToClipboard _output;
+
+_output = "";
+
+{
+    _output = _output + "            " + _x + "," + _br;
+} forEach _patches;
 
 copyToClipboard _output;
