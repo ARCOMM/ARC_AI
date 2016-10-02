@@ -582,3 +582,9 @@ class Extended_Init_EventHandlers {
         };
     };
 };
+
+class Extended_PostInit_EventHandlers {
+    class ARC_AI {
+        init = "call compile preprocessFileLineNumbers '\arc_ai_client_xeh\XEH_postInit.sqf'";
+    };
+};

@@ -1,10 +1,12 @@
 private _unit = _this select 0;
 
+if (isNull _unit) exitWith {};
 if (isPlayer _unit || !((side _unit) in [west,east,resistance,civilian])) exitWith {};
 
 _unit addEventHandler ["Reloaded", {
-    params [["_unit",objNull],"_weapon","_muzzle","_newMag",["_oldMag",[""]]];
-    if (!isPlayer _unit && {typeName _oldMag == "ARRAY"} && {count _oldMag > 0} && {typeName (_oldMag select 0) == "STRING"}) then {
+    params [["_unit", objNull], "_weapon", "_muzzle", "_newMag", ["_oldMag", [""]]];
+    if (isNull _unit) exitWith {};
+    if (!isPlayer _unit && {_oldMag isEqualType []} && {count _oldMag > 0} && {(_oldMag select 0) isEqualType ""}) then {
         _unit addMagazine [(_oldMag select 0), 1E6];
     };
 }];
