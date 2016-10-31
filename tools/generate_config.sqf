@@ -110,12 +110,10 @@ private _patches = [];
 
 _output = _output + "};";
 
-copyToClipboard _output;
-
 _output = "";
 
 {
-    _output = _output + "            " + _x + "," + _br;
+    _output = _output + "            """ + _x + """," + _br;
 } forEach _patches;
 
 copyToClipboard _output;
