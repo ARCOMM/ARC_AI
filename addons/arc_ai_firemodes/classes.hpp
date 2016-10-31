@@ -251,8 +251,6 @@ class CfgWeapons {
     RIFLE(rhs_weap_ak74m_gp25_1p63, rhs_weap_ak74m_gp25);
     RIFLE(rhs_weap_ak74m_gp25_pso1m2, rhs_weap_ak74m_gp25);
     RIFLE(rhs_weap_ak74m_gp25_1p29, rhs_weap_ak74m_gp25);
-    RIFLE(rhs_weap_svdp_pso1, rhs_weap_svdp);
-    RIFLE(rhs_weap_svds_pso1, rhs_weap_svds);
     RIFLE(rhs_weap_ak74m_camo_folded, rhs_weap_ak74m_folded);
     RIFLE(rhs_weap_ak74m_desert_folded, rhs_weap_ak74m_folded);
     RIFLE(rhs_weap_ak74m_plummag_folded, rhs_weap_ak74m_folded);
@@ -279,7 +277,6 @@ class CfgWeapons {
     RIFLE(rhs_weap_45th_akm_gp25, rhs_weap_akm_gp25);
     RIFLE(rhs_weap_45th_akms, rhs_weap_akms);
     RIFLE(rhs_weap_45th_ak103, rhs_weap_ak103);
-    RIFLE(rhs_weap_45th_svds, rhs_weap_svds);
     RIFLE(rhs_weap_45th_asval, rhs_weap_asval);
     RIFLE(rhs_weap_45th_vss, rhs_weap_vss);
     RIFLE(rhs_weap_vmf_asval, rhs_weap_asval_grip);
@@ -357,10 +354,6 @@ class CfgWeapons {
     RIFLE(arifle_SPAR_03_snd_F, arifle_SPAR_03_base_F);
     PROTO(SMG_05_base_F);
     RIFLE(SMG_05_F, SMG_05_base_F);
-    PROTO(rhs_weap_kar98k_Base_F);
-    RIFLE(rhs_weap_kar98k, rhs_weap_kar98k_Base_F);
-    PROTO(rhs_weap_m38_Base_F);
-    RIFLE(rhs_weap_m38, rhs_weap_m38_Base_F);
     PROTO(rhs_weap_m21_base);
     RIFLE(rhs_weap_m21a, rhs_weap_m21_base);
     RIFLE(rhs_weap_m21a_pr, rhs_weap_m21_base);
@@ -472,6 +465,7 @@ class CfgWeapons {
     MG(rhs_weap_m240B, rhs_weap_m240_base);
     MG(rhs_weap_m240B_CAP, rhs_weap_m240B);
     MG(rhs_weap_m240G, rhs_weap_m240B);
+    PROTO(rhs_weap_m14ebrri);
     RIFLE(rhs_weap_m39, rhs_weap_m14ebrri);
     PROTO(rhs_weap_m32_Base_F);
     RIFLE(rhs_weap_m32, rhs_weap_m32_Base_F);
@@ -596,12 +590,7 @@ class CfgWeapons {
     MG(rhs_weap_m240b_usmc, rhs_weap_m240B_CAP);
     RIFLE(rhs_weap_m249_pip_usmc, rhs_weap_m249_pip_L);
     RIFLE(rhs_weap_m249_para_usmc, rhs_weap_m249_pip_S_para);
-    RIFLE(rhs_weap_sr25_usmc, rhs_weap_sr25);
-    RIFLE(rhs_weap_sr25_sup_usmc, rhs_weap_sr25);
     RIFLE(rhs_weap_m32_usmc, rhs_weap_m32);
-    RIFLE(rhs_weap_M107_premier, rhs_weap_M107);
-    RIFLE(rhs_weap_M107_d_premier, rhs_weap_M107_d);
-    RIFLE(rhs_weap_M107_w_premier, rhs_weap_M107_w);
     RIFLE(rhs_m4a1_grip_eotech_soc, rhs_weap_m4a1_carryhandle_grip3);
     RIFLE(rhs_weap_mk18_eotech, rhs_weap_mk18_KAC);
     RIFLE(rhs_weap_mk18_eotech_sup, rhs_weap_mk18_KAC);
@@ -609,7 +598,6 @@ class CfgWeapons {
     RIFLE(rhs_weap_m4a1_blockII_KAC_SU230, rhs_weap_m4a1_blockII_KAC);
     RIFLE(rhs_weap_m4a1_blockII_M203_SU230, rhs_weap_m4a1_blockII_M203);
     RIFLE(rhs_weap_m4a1_blockII_KAC_SU230_sup, rhs_weap_m4a1_blockII_KAC);
-    RIFLE(rhs_weap_sr25_sup_marsoc, rhs_weap_sr25_ec);
     PROTO(hlc_ak_base);
     RIFLE(hlc_rifle_ak74, hlc_ak_base);
     RIFLE(hlc_rifle_aks74, hlc_rifle_ak74);
@@ -728,7 +716,6 @@ class CfgWeapons {
     RIFLE(hlc_rifle_G36MLIAG36, hlc_G36_base);
     RIFLE(hlc_rifle_MG36, hlc_G36_base);
     PROTO(hlc_g3_base);
-    RIFLE(hlc_rifle_psg1, hlc_g3_base);
     RIFLE(hlc_rifle_g3sg1, hlc_g3_base);
     RIFLE(hlc_rifle_g3a3, hlc_rifle_g3sg1);
     RIFLE(hlc_rifle_g3ka4, hlc_rifle_g3a3);
@@ -736,8 +723,6 @@ class CfgWeapons {
     RIFLE(hlc_rifle_g3a3ris, hlc_rifle_g3a3);
     RIFLE(HLC_Rifle_g3ka4_GL, hlc_rifle_g3a3ris);
     RIFLE(hlc_rifle_hk53, hlc_g3_base);
-    RIFLE(hlc_rifle_psg1A1, hlc_g3_base);
-    RIFLE(hlc_rifle_PSG1A1_RIS, hlc_g3_base);
     RIFLE(hlc_rifle_g3a3v, hlc_rifle_g3a3);
     RIFLE(hlc_rifle_hk53RAS, hlc_g3_base);
     RIFLE(hlc_rifle_hk33a2, hlc_g3_base);
@@ -815,12 +800,8 @@ class CfgWeapons {
     RIFLE(RH_Hk416, RH_M4A1_ris);
     RIFLE(RH_Hk416c, RH_M4sbr);
     RIFLE(RH_Hk416s, RH_M4sbr);
-    RIFLE(RH_Mk12mod1, RH_M16A4);
+    PROTO(RH_Mk12mod1);
     RIFLE(RH_M27IAR, RH_Mk12mod1);
-    RIFLE(RH_SAMR, RH_Mk12mod1);
-    RIFLE(RH_m110, Rifle_Base_F);
-    RIFLE(RH_Mk11, RH_m110);
-    RIFLE(RH_SR25EC, RH_m110);
     PROTO(UK3CB_BAF_L110_556_Base);
     RIFLE(UK3CB_BAF_L110A1, UK3CB_BAF_L110_556_Base);
     RIFLE(UK3CB_BAF_L110A2, UK3CB_BAF_L110_556_Base);
@@ -828,6 +809,7 @@ class CfgWeapons {
     RIFLE(UK3CB_BAF_L110A3, UK3CB_BAF_L110_556_Base);
     PROTO(UK3CB_BAF_L110_762_Base);
     MG(UK3CB_BAF_L110_762, UK3CB_BAF_L110_762_Base);
+    PROTO(UK3CB_BAF_L110A2RISG);
     RIFLE(UK3CB_BAF_L110A2_FIST, UK3CB_BAF_L110A2RISG);
     PROTO(UK3CB_BAF_L119_Base);
     RIFLE(UK3CB_BAF_L119A1, UK3CB_BAF_L119_Base);
