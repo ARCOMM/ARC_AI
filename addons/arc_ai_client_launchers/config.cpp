@@ -8,102 +8,6 @@ class CfgPatches {
         author[] = {"Ed", "Kingsley"};
         authorUrl = "https://github.com/ARCOMM/ARC_AI";
         requiredAddons[] = {
-            "CAweapons3_aks74pso",
-            "CAWeapons3_ammocrates",
-            "CAweapons3_ksvk",
-            "CAweapons3_m107",
-            "CAweapons3_m16a4_acg_gl",
-            "CAweapons3_m16a4_acg",
-            "CAweapons3_m16a4_gl",
-            "CAweapons3_m16a4",
-            "CAWeapons3",
-            "DSHkM_Mini",
-            "M2HD_Mini",
-            "MK19_Tripod",
-            "A3Data",
-            "A3_Data_F_Exp_B",
-            "rhsusf_marks_fix",
-            "A3_Dubbing_Radio_F",
-            "rhs_c_radio",
-            "rhs_mtlb",
-            "rhs_s_radio",
-            "rhsusf_c_identity",
-            "rhsusf_c_radio",
-            "rhsusf_hemtt_a2",
-            "rhsusf_hemtt_a4",
-            "rhsusf_s_radio",
-            "CAWeapons",
-            "CAWeapons_Warfare_weapons",
-            "CAWeapons_2b14_82mm_Mortar",
-            "CAWeapons_AK",
-            "CAWeapons_AmmoBoxes",
-            "CAWeapons_BAF",
-            "CAWeapons_bizon",
-            "CAWeapons_Colt1911",
-            "CAWeapons_DMR",
-            "CAWeapons_E",
-            "CAWeapons_E_AGS",
-            "CAWeapons_E_AK",
-            "CAWeapons_E_AmmoBoxes",
-            "CAWeapons_E_Colt1911",
-            "CAWeapons_E_D30",
-            "CAWeapons_E_DSHKM",
-            "CAWeapons_E_FIM92_static",
-            "CAWeapons_E_fnfal",
-            "CAWeapons_E_G36",
-            "CAWeapons_E_GrenadeLauncher",
-            "CAWeapons_E_Igla",
-            "CAWeapons_E_Javelin",
-            "CAWeapons_E_KORD",
-            "CAWeapons_E_ksvk",
-            "CAWeapons_E_LeeEnfield",
-            "CAweapons_E_m107",
-            "CAWeapons_E_M110",
-            "CAWeapons_E_M119_Howitzer",
-            "CAWeapons_E_M136",
-            "CAWeapons_E_M14",
-            "CAWeapons_E_M16",
-            "CAWeapons_E_M240",
-            "CAWeapons_E_M252_81mm_Mortar",
-            "CAWeapons_E_M2StaticMG",
-            "CAWeapons_E_M47",
-            "CAWeapons_E_M9",
-            "CAWeapons_E_MAAWS",
-            "CAWeapons_E_Makarov",
-            "CAWeapons_E_Metis",
-            "CAWeapons_E_Mk19_MiniTriPod",
-            "CAWeapons_E_PK",
-            "CAWeapons_E_Podnos_2b14_82mm",
-            "CAWeapons_E_RPG18",
-            "CAWeapons_E_RPG7",
-            "CAWeapons_E_scar",
-            "CAWeapons_E_Searchlight",
-            "CAWeapons_E_SPG9",
-            "CAWeapons_E_STATIC",
-            "CAWeapons_E_Stinger",
-            "CAWeapons_E_Strela",
-            "CAWeapons_E_TOW",
-            "CAWeapons_E_ZU23",
-            "CAWeapons_Kord",
-            "CAweapons_ksvk",
-            "CAWeapons_M1014",
-            "CAweapons_m107",
-            "CAWeapons_M252_81mm_Mortar",
-            "CAWeapons_Metis_AT_13",
-            "CAWeapons_PMC",
-            "CAWeapons_PMC_AA_12",
-            "CAWeapons_PMC_AS50",
-            "CAWeapons_PMC_XM8",
-            "CAWeapons_Saiga12K",
-            "CAWeapons_SPG9",
-            "CAWeapons_VSS_vintorez",
-            "CAWeapons_ZU23",
-            "CAWeapons2",
-            "CAWeapons2_HuntingRifle",
-            "CAWeapons2_RPG18",
-            "CAWeapons2_SMAW",
-            "A3_Data_F",
-            "cba_ai",
             "A3_Weapons_F",
             "A3_Weapons_F_NATO",
             "A3_Weapons_F_CSAT",
@@ -169,13 +73,6 @@ class CfgPatches {
             "A3_Weapons_F_Mark_Rifles_MX",
             "A3_Weapons_F_Mark_Rifles_SDAR",
             "A3_Weapons_F_Mark_Rifles_TRG20",
-            "rhs_main",
-            "rhs_optics",
-            "rhsusf_c_uav",
-            "rhsusf_main",
-            "rhsusf_optics",
-            "rhsusf_radio",
-            "rhsusf_uav",
             "A3_Weapons_F_gamma_Items",
             "A3_Weapons_F_Acc",
             "A3_Weapons_F_Beta_Acc",
@@ -190,25 +87,6 @@ class CfgPatches {
             "A3_Weapons_F_gamma_Acc",
             "A3_Weapons_F_Kart",
             "A3_Weapons_F_Mark_Acc",
-            "rhs_air",
-            "rhs_airweapons",
-            "rhs_aps",
-            "rhs_c_airweapons",
-            "rhs_c_heavyweapons",
-            "rhs_c_identity",
-            "rhs_c_radars",
-            "rhs_c_weapons",
-            "rhs_decals",
-            "rhs_heavyweapons",
-            "rhs_identity",
-            "rhs_radars",
-            "rhs_sounds",
-            "rhs_weapons2",
-            "rhs_weapons",
-            "rhsusf_a2port_car",
-            "rhsusf_airweapons",
-            "rhsusf_c_a2port_car",
-            "rhsusf_decals",
             "A3_Weapons_F_Bootcamp",
             "A3_Weapons_F_Mark",
             "A3_Weapons_F_Mark_LongRangeRifles_DMR_02",
@@ -218,248 +96,213 @@ class CfgPatches {
             "A3_Weapons_F_Mark_LongRangeRifles_DMR_06",
             "A3_Weapons_F_Mark_Machineguns_MMG_01",
             "A3_Weapons_F_Mark_Machineguns_MMG_02",
-            "rhs_c_cars",
-            "rhs_c_troops",
-            "rhs_infantry",
-            "rhs_tigr",
-            "rhsusf_c_hemtt_a2",
-            "rhsusf_c_hemtt_a4",
-            "rhs_c_2s3",
-            "rhs_c_a2port_air",
-            "RHS_A2_AirImport",
-            "rhs_c_a2port_car",
-            "RHS_A2_CarsImport",
-            "rhs_c_a3retex",
-            "rhs_c_air",
-            "rhs_c_bmd",
-            "rhs_c_bmp3",
-            "rhs_c_bmp",
-            "rhs_c_btr",
-            "rhs_c_pts",
-            "rhs_c_rva",
-            "rhs_c_sprut",
-            "rhs_c_t72",
-            "rhs_c_tanks",
-            "rhs_c_trucks",
-            "rhs_gaz66",
-            "rhs_infantry2",
-            "rhs_pts",
-            "rhs_sprut",
-            "rhs_ss21",
-            "rhs_t72",
-            "rhs_t80",
-            "rhs_t80u",
-            "rhs_vehiclesounds",
+            "UK3CB_BAF_Vehicles_Weapons",
+            "rhsgref_c_airweapons",
+            "HueyPack",
+            "rhs_c_heavyweapons",
+            "rhs_c_weapons",
             "rhsusf_c_heavyweapons",
-            "rhsusf_c_weapons",
-            "rhsusf_heavyweapons",
-            "rhsusf_sounds",
-            "rhsusf_weapons",
-            "ace_main",
-            "hlcweapons_core",
-            "hlcweapons_aks",
-            "hlcweapons_AUG",
-            "hlcweapons_falpocalypse",
-            "hlcweapons_G36",
-            "hlcweapons_g3",
-            "hlcweapons_m14",
-            "hlcweapons_m60e4",
-            "hlcweapons_mp5",
-            "RH_acc",
-            "RH_m4_cfg",
-            "rhs_2s3",
-            "rhs_a2port_air",
-            "rhs_a2port_car",
-            "rhs_a3retex",
-            "rhs_bmd",
-            "rhs_bmd_34",
-            "rhs_bmp3",
-            "rhs_bmp",
-            "rhs_btr70",
-            "rhs_btr80",
-            "rhs_c_a2port_armor",
-            "rhs_cti_insurgents",
-            "rhs_servicemenu",
+            "rhs_c_airweapons",
             "rhsusf_c_airweapons",
-            "rhsusf_c_f22",
-            "rhsusf_c_troops",
-            "rhsusf_infantry2",
-            "rhsusf_infantry",
-            "rhsusf_weapons2",
-            "ace_common",
-            "rhs_a2port_armor",
-            "RHS_US_A2_AirImport",
-            "RHS_US_A2Port_Armor",
-            "rhsusf_c_ch53",
-            "rhsusf_c_fmtv",
-            "rhsusf_vehicles",
-            "rhsusf_c_hmmwv",
-            "rhsusf_c_m109",
-            "rhsusf_c_m113",
-            "rhsusf_c_m1a1",
-            "rhsusf_c_m1a2",
-            "rhsusf_c_rg33",
-            "rhsusf_c_statics",
-            "rhsusf_cars",
-            "rhsusf_ch53",
-            "rhsusf_f22",
-            "rhsusf_fmtv",
-            "rhsusf_hmmwv",
-            "rhsusf_m109",
-            "rhsusf_m113",
-            "rhsusf_m1a1",
-            "rhsusf_m1a2",
-            "rhsusf_rg33",
-            "rhsusf_a2port_air2",
-            "rhsusf_a2port_air",
-            "rhsusf_a2port_armor"
+            "rhs_c_rva",
+            "rhsusf_c_weapons",
+            "rhs_servicemenu",
+            "ace_compat_rhs_afrf3",
+            "ace_frag",
+            "ace_missileguidance",
+            "ace_rearm",
+            "UK3CB_BAF_Weapons_Launchers",
+            "ace_compat_rhs_usf3"
         };
         ammo[] = {};
     };
 };
 
 class CfgAmmo {
-    PROTO(RocketCore)
-    PROTO(RocketBase)
-    PROTO(MissileCore)
-    PROTO(MissileBase)
-
-    LAUNCHER(M_PG_AT, MissileBase)
-    LAUNCHER(M_AT, MissileBase)
-    LAUNCHER(Rocket_04_HE_F, MissileBase)
-    LAUNCHER(M_Scalpel_AT, MissileBase)
-    LAUNCHER(R_80mm_HE, RocketBase)
-    LAUNCHER(M_NLAW_AT_F, MissileBase)
-    LAUNCHER(R_PG32V_F, RocketBase)
-    LAUNCHER(M_Titan_AA, MissileBase)
-    LAUNCHER(M_Titan_AT, MissileBase)
-    LAUNCHER(M_Air_AA, MissileBase)
-    LAUNCHER(Missile_AA_04_F, MissileBase)
-    LAUNCHER(Missile_AGM_02_F, MissileBase)
-    LAUNCHER(M_Scalpel_AT_hidden, MissileBase)
-    LAUNCHER(Bo_Air_LGB, MissileBase)
-    LAUNCHER(Bo_Air_LGB_hidden, MissileBase)
-    LAUNCHER(R_TBG32V_F, RocketBase)
-    LAUNCHER(R_60mm_HE, RocketBase)
-    LAUNCHER(M_Zephyr, MissileBase)
-    LAUNCHER(M_Zephyr_Mi06, MissileBase)
-    LAUNCHER(M_Titan_AA_long, MissileBase)
-    LAUNCHER(M_Air_AA_MI02, MissileBase)
-    LAUNCHER(M_Titan_AP, MissileBase)
-    LAUNCHER(M_Air_AT, MissileBase)
-    LAUNCHER(M_Zephyr_air, MissileBase)
-    LAUNCHER(M_Titan_AA_static, MissileBase)
-    LAUNCHER(M_Titan_AT_static, MissileBase)
-    LAUNCHER(M_Mo_82mm_AT, MissileBase)
-    LAUNCHER(M_Mo_82mm_AT_LG, MissileBase)
-    LAUNCHER(M_Mo_120mm_AT, MissileBase)
-    LAUNCHER(M_Mo_155mm_AT, MissileBase)
-    LAUNCHER(M_Mo_120mm_AT_LG, MissileBase)
-    LAUNCHER(M_Mo_155mm_AT_LG, MissileBase)
-    LAUNCHER(Rocket_04_AP_F, MissileBase)
-    LAUNCHER(Missile_AA_03_F, MissileBase)
-    LAUNCHER(Missile_AGM_01_F, MissileBase)
-    LAUNCHER(Rocket_03_HE_F, MissileBase)
-    LAUNCHER(Rocket_03_AP_F, MissileBase)
-    LAUNCHER(rhs_ammo_atgmCore_base, MissileBase)
-    LAUNCHER(rhs_ammo_atgmBase_base, MissileBase)
-    LAUNCHER(rhs_ammo_s8, RocketBase)
-    LAUNCHER(rhs_ammo_s8DF, RocketBase)
-    LAUNCHER(rhs_ammo_s8t, RocketBase)
-    LAUNCHER(rhs_ammo_s5_ub16, RocketBase)
-    LAUNCHER(rhs_ammo_s5_ub32, RocketBase)
-    LAUNCHER(rhs_ammo_b8v20a_pod, MissileBase)
-    LAUNCHER(rhs_ammo_b8m1_pod, MissileBase)
-    LAUNCHER(rhs_ammo_ub32_pod, MissileBase)
-    LAUNCHER(rhs_ammo_ub16_pod, MissileBase)
-    LAUNCHER(rhs_ammo_falanga_pod, MissileBase)
-    LAUNCHER(rhs_ammo_ataka_tube, MissileBase)
-    LAUNCHER(rhs_ammo_ataka_tube_2, MissileBase)
-    LAUNCHER(rhs_ammo_upk23_pod, MissileBase)
-    LAUNCHER(rhs_ammo_9k114, MissileBase)
-    LAUNCHER(rhs_ammo_9m120, MissileBase)
-    LAUNCHER(rhs_ammo_9m127m, MissileBase)
-    LAUNCHER(rhs_ammo_r73, MissileBase)
-    LAUNCHER(rhs_ammo_r74m2, MissileBase)
-    LAUNCHER(rhs_ammo_r77m, MissileBase)
-    LAUNCHER(rhs_ammo_ch29, MissileBase)
-    LAUNCHER(rhs_ammo_9m14m, MissileBase)
-    LAUNCHER(rhs_ammo_9m112, MissileBase)
-    LAUNCHER(rhs_ammo_9m112m, MissileBase)
-    LAUNCHER(rhs_ammo_9m113, MissileBase)
-    LAUNCHER(rhs_ammo_9m117, MissileBase)
-    LAUNCHER(rhs_ammo_9m118, MissileBase)
-    LAUNCHER(rhs_ammo_9m119, MissileBase)
-    LAUNCHER(rhs_ammo_9m119m, MissileBase)
-    LAUNCHER(rhs_ammo_9m128, MissileBase)
-    LAUNCHER(rhs_ammo_9m115, MissileBase)
-    LAUNCHER(rhs_ammo_9m131, MissileBase)
-    LAUNCHER(rhs_ammo_9m131m, MissileBase)
-    LAUNCHER(rhs_ammo_9m131f, MissileBase)
-    LAUNCHER(rhs_ammo_9m133, MissileBase)
-    LAUNCHER(rhs_ammo_3m7, MissileBase)
-    LAUNCHER(rhs_proxy_ags30_mag, MissileBase)
-    LAUNCHER(rhs_proxy_pkm_mag, MissileBase)
-    LAUNCHER(rhs_ammo_rpgShell_base, RocketBase)
-    LAUNCHER(rhs_ammo_og9v, RocketBase)
-    LAUNCHER(rhs_ammo_og9vm, RocketBase)
-    LAUNCHER(rhs_ammo_pg9v, RocketBase)
-    LAUNCHER(rhs_ammo_pg9n, RocketBase)
-    LAUNCHER(rhs_ammo_pg9vnt, RocketBase)
-    LAUNCHER(rhs_rpg26_rocket, RocketBase)
-    LAUNCHER(rhs_rpg18_rocket, RocketBase)
-    LAUNCHER(rhs_rpg7v2_pg7vl, RocketBase)
-    LAUNCHER(rhs_rpg7v2_pg7vr, RocketBase)
-    LAUNCHER(rhs_rpg7v2_tbg7v, RocketBase)
-    LAUNCHER(rhs_rpg7v2_og7v, RocketBase)
-    LAUNCHER(rhs_rshg2_rocket, RocketBase)
-    LAUNCHER(rhs_ammo_9k32, MissileBase)
-    LAUNCHER(rhs_ammo_9k38, MissileBase)
-    LAUNCHER(M151_Ammo_MELB, MissileBase)
-    LAUNCHER(MELB_AGM_114K, MissileBase)
-    LAUNCHER(DAGR_Ammo_MELB, MissileBase)
-    LAUNCHER(tf47_m3maaws_HEAT, RocketBase)
-    LAUNCHER(tf47_m3maaws_HEDP, RocketBase)
-    LAUNCHER(tf47_m3maaws_HE, RocketBase)
-    LAUNCHER(tf47_m3maaws_SMOKE, RocketBase)
-    LAUNCHER(tf47_m3maaws_ILLUM, RocketBase)
-    LAUNCHER(tf47_m3maaws_AreaDefense, RocketBase)
-    LAUNCHER(RHS_9M79_1_F, MissileBase)
-    LAUNCHER(RHS_9N123F, MissileBase)
-    LAUNCHER(RHS_9M79B, MissileBase)
-    LAUNCHER(RHS_9M79_1_K, MissileBase)
-    LAUNCHER(RHS_9N123K, MissileBase)
-    LAUNCHER(rhs_ammo_TOW_AT, MissileBase)
-    LAUNCHER(rhs_ammo_TOW2_AT, MissileBase)
-    LAUNCHER(rhs_ammo_TOW2_AT_static, MissileBase)
-    LAUNCHER(rhs_ammo_M136_rocket, RocketBase)
-    LAUNCHER(rhs_ammo_M136_hp_rocket, RocketBase)
-    LAUNCHER(rhs_ammo_M136_hedp_rocket, RocketBase)
-    LAUNCHER(rhsammo_fim92_missile, MissileBase)
-    LAUNCHER(rhs_ammo_M_fgm148_AT, MissileBase)
-    LAUNCHER(rhs_ammo_smaw_HEAA, RocketBase)
-    LAUNCHER(rhs_ammo_smaw_HEDP, RocketBase)
-    LAUNCHER(rhs_ammo_smaw_SR, RocketBase)
-    LAUNCHER(rhs_ammo_empty, MissileBase)
-    LAUNCHER(rhs_ammo_Sidewinder_AA, MissileBase)
-    LAUNCHER(rhs_ammo_aim120, MissileBase)
-    LAUNCHER(rhs_ammo_Sidewinder_AA_heli, MissileBase)
-    LAUNCHER(rhs_ammo_Hellfire_AT, MissileBase)
-    LAUNCHER(rhs_ammo_agm65, MissileBase)
-    LAUNCHER(rhs_ammo_Hydra_HE, MissileBase)
-    LAUNCHER(rhs_ammo_Stinger_AA, MissileBase)
-    LAUNCHER(rhs_ammo_ANALQ131, MissileBase)
-    LAUNCHER(rhs_pod_hellfire, MissileBase)
-    LAUNCHER(rhs_pod_FFAR, MissileBase)
-    LAUNCHER(rhs_pod_FFAR_green, MissileBase)
-    LAUNCHER(rhs_pod_hellfire_green, MissileBase)
-    LAUNCHER(R_Hydra_HE, RocketBase)
-    LAUNCHER(M_Hellfire_AT, MissileBase)
-    LAUNCHER(ACE_Hydra70_DAGR, MissileBase)
-    LAUNCHER(ACE_Hellfire_AGM114K, MissileBase)
-    LAUNCHER(ACE_Javelin_FGM148, MissileBase)
-    LAUNCHER(ACE_Javelin_FGM148_static, MissileBase)
-    LAUNCHER(RHS_ammo_BGM109, MissileBase)
-    LAUNCHER(rhs_ammo_m72a7_rocket, rhs_ammo_M136_hedp_rocket)
-    LAUNCHER(R_PG7_F, RocketBase)
+    PROTO(RocketBase);
+    LAUNCHER(R_PG32V_F, RocketBase);
+    LAUNCHER(R_TBG32V_F, R_PG32V_F);
+    PROTO(MissileBase);
+    LAUNCHER(M_NLAW_AT_F, MissileBase);
+    LAUNCHER(M_PG_AT, MissileBase);
+    LAUNCHER(M_AT, M_PG_AT);
+    LAUNCHER(M_Titan_AA, MissileBase);
+    LAUNCHER(M_Titan_AT, MissileBase);
+    LAUNCHER(M_Titan_AP, M_Titan_AT);
+    LAUNCHER(ACE_Javelin_FGM148, M_Titan_AT);
+    LAUNCHER(M_Scalpel_AT, MissileBase);
+    LAUNCHER(M_Scalpel_AT_hidden, M_Scalpel_AT);
+    LAUNCHER(R_80mm_HE, RocketBase);
+    LAUNCHER(M_Air_AA, MissileBase);
+    LAUNCHER(M_Air_AA_MI02, M_Air_AA);
+    LAUNCHER(M_Zephyr, M_Titan_AA);
+    LAUNCHER(M_Titan_AA_long, M_Titan_AA);
+    LAUNCHER(M_Air_AT, M_Titan_AT);
+    LAUNCHER(M_Titan_AA_static, M_Titan_AA);
+    LAUNCHER(ACE_Javelin_FGM148_static, ACE_Javelin_FGM148);
+    PROTO(LaserBombCore);
+    LAUNCHER(Bo_GBU12_LGB, LaserBombCore);
+    LAUNCHER(Bo_GBU12_LGB_MI10, Bo_GBU12_LGB);
+    PROTO(BombCore);
+    LAUNCHER(Bo_Mk82, BombCore);
+    LAUNCHER(Bo_Mk82_MI08, Bo_Mk82);
+    LAUNCHER(Missile_AA_04_F, MissileBase);
+    LAUNCHER(Missile_AGM_02_F, MissileBase);
+    LAUNCHER(Rocket_04_HE_F, MissileBase);
+    LAUNCHER(Rocket_04_AP_F, Rocket_04_HE_F);
+    LAUNCHER(Bomb_04_F, LaserBombCore);
+    LAUNCHER(Missile_AA_03_F, Missile_AA_04_F);
+    LAUNCHER(Missile_AGM_01_F, Missile_AGM_02_F);
+    LAUNCHER(Rocket_03_HE_F, Rocket_04_HE_F);
+    LAUNCHER(Rocket_03_AP_F, Rocket_04_AP_F);
+    LAUNCHER(Bomb_03_F, Bomb_04_F);
+    PROTO(UK3CB_BAF_M_CRV7_Base_PG);
+    LAUNCHER(UK3CB_BAF_M_CRV7_PG_HEISAP, UK3CB_BAF_M_CRV7_Base_PG);
+    PROTO(UK3CB_BAF_M_CRV7_Base);
+    LAUNCHER(UK3CB_BAF_M_CRV7_HEISAP, UK3CB_BAF_M_CRV7_Base);
+    LAUNCHER(UK3CB_BAF_M_CRV7_PG_FAT, UK3CB_BAF_M_CRV7_Base_PG);
+    LAUNCHER(UK3CB_BAF_M_CRV7_FAT, UK3CB_BAF_M_CRV7_Base);
+    LAUNCHER(UK3CB_BAF_M_Hellfire_Base, MissileBase);
+    LAUNCHER(UK3CB_BAF_M_Hellfire_K, UK3CB_BAF_M_Hellfire_Base);
+    LAUNCHER(UK3CB_BAF_M_Hellfire_L, UK3CB_BAF_M_Hellfire_Base);
+    LAUNCHER(UK3CB_BAF_M_Hellfire_N, UK3CB_BAF_M_Hellfire_Base);
+    PROTO(rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_fuelpod_proxy, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_fuelpod_proxy2, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_plamen_pod, rhs_ammo_atgmBase_base);
+    LAUNCHER(TOW_AT, Missile_AGM_02_F);
+    LAUNCHER(Hydra_HE, R_80mm_HE);
+    LAUNCHER(rhs_ammo_9m14m, rhs_ammo_atgmBase_base);
+    PROTO(rhs_ammo_atgmCore_base);
+    LAUNCHER(rhs_ammo_9m112, rhs_ammo_atgmCore_base);
+    LAUNCHER(rhs_ammo_9m112m, rhs_ammo_9m112);
+    LAUNCHER(rhs_ammo_9m112m2, rhs_ammo_9m112m);
+    LAUNCHER(rhs_ammo_9m124, rhs_ammo_9m112m);
+    LAUNCHER(rhs_ammo_9m128, rhs_ammo_atgmCore_base);
+    LAUNCHER(rhs_ammo_9m113, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_9m113m, rhs_ammo_9m113);
+    LAUNCHER(rhs_ammo_9m111, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_9m111m, rhs_ammo_9m111);
+    LAUNCHER(rhs_ammo_9m117, rhs_ammo_atgmCore_base);
+    LAUNCHER(rhs_ammo_9m118, rhs_ammo_9m117);
+    LAUNCHER(rhs_ammo_9m119, rhs_ammo_atgmCore_base);
+    LAUNCHER(rhs_ammo_9m119m, rhs_ammo_9m119);
+    LAUNCHER(rhs_ammo_9m119f, rhs_ammo_9m119);
+    LAUNCHER(rhs_ammo_9m133, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_9m115, rhs_ammo_9m119);
+    LAUNCHER(rhs_ammo_9m131, rhs_ammo_9m115);
+    LAUNCHER(rhs_ammo_9m131m, rhs_ammo_9m131);
+    LAUNCHER(rhs_ammo_9m131f, rhs_ammo_9m131m);
+    LAUNCHER(rhs_ammo_9m133f, rhs_ammo_9m131f);
+    LAUNCHER(rhs_ammo_9m1331, rhs_ammo_9m133);
+    LAUNCHER(rhs_ammo_9m133m2, rhs_ammo_9m133);
+    LAUNCHER(rhs_ammo_3m7, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_9k114, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_9m120, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_9k32, M_Titan_AA);
+    LAUNCHER(rhs_ammo_9k38, rhs_ammo_9k32);
+    LAUNCHER(rhs_proxy_ags30_mag, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_proxy_pkm_mag, rhs_ammo_atgmBase_base);
+    PROTO(rhs_ammo_rpgShell_base);
+    LAUNCHER(rhs_ammo_pg9v, rhs_ammo_rpgShell_base);
+    LAUNCHER(rhs_ammo_pg9n, rhs_ammo_pg9v);
+    LAUNCHER(rhs_ammo_pg9vnt, rhs_ammo_pg9v);
+    LAUNCHER(rhs_ammo_og9v, rhs_ammo_rpgShell_base);
+    LAUNCHER(rhs_ammo_og9vm, rhs_ammo_og9v);
+    LAUNCHER(rhs_rpg26_rocket, R_PG32V_F);
+    LAUNCHER(rhs_rpg7v2_pg7vl, rhs_rpg26_rocket);
+    LAUNCHER(rhs_rpg7v2_tbg7v, rhs_rpg7v2_pg7vl);
+    LAUNCHER(rhs_rshg2_rocket, rhs_rpg7v2_tbg7v);
+    LAUNCHER(rhs_rpg18_rocket, rhs_rpg26_rocket);
+    LAUNCHER(rhs_ammo_M136_rocket, RocketBase);
+    LAUNCHER(rhs_rpg7v2_pg7vr, rhs_rpg7v2_pg7vl);
+    LAUNCHER(rhs_rpg7v2_og7v, rhs_rpg7v2_pg7vl);
+    PROTO(rhs_ammo_TOW_AT);
+    LAUNCHER(rhs_ammo_TOW2_AT, rhs_ammo_TOW_AT);
+    LAUNCHER(rhs_ammo_TOW2_AT_static, rhs_ammo_TOW2_AT);
+    LAUNCHER(R_PG7_F, RocketBase);
+    LAUNCHER(M_Jian_AT, Missile_AGM_01_F);
+    LAUNCHER(rhs_ammo_s8, R_80mm_HE);
+    LAUNCHER(rhs_ammo_s8DF, rhs_ammo_s8);
+    LAUNCHER(rhs_ammo_s8t, rhs_ammo_s8);
+    LAUNCHER(rhs_ammo_s5_ub16, rhs_ammo_s8);
+    LAUNCHER(rhs_ammo_s5_ub32, rhs_ammo_s5_ub16);
+    LAUNCHER(rhs_ammo_b8v20a_pod, rhs_ammo_atgmBase_base);
+    LAUNCHER(rhs_ammo_b8m1_pod, rhs_ammo_b8v20a_pod);
+    LAUNCHER(rhs_ammo_ub16_pod, rhs_ammo_b8v20a_pod);
+    LAUNCHER(rhs_ammo_ub32_pod, rhs_ammo_b8v20a_pod);
+    LAUNCHER(rhs_ammo_upk23_pod, rhs_ammo_b8v20a_pod);
+    LAUNCHER(rhs_ammo_falanga_pod, rhs_ammo_b8v20a_pod);
+    LAUNCHER(rhs_ammo_ataka_tube, rhs_ammo_b8v20a_pod);
+    LAUNCHER(rhs_ammo_ataka_tube_2, rhs_ammo_ataka_tube);
+    LAUNCHER(rhs_ammo_r73, Missile_AA_04_F);
+    LAUNCHER(rhs_ammo_r74m2, rhs_ammo_r73);
+    LAUNCHER(rhs_ammo_r77, rhs_ammo_r73);
+    LAUNCHER(rhs_ammo_r77m, rhs_ammo_r77);
+    LAUNCHER(rhs_ammo_ch29, Missile_AGM_02_F);
+    LAUNCHER(rhs_ammo_9m127m, rhs_ammo_9m120);
+    LAUNCHER(rhs_ammo_fab250, Bomb_04_F);
+    LAUNCHER(rhs_ammo_Sidewinder_AA, MissileBase);
+    LAUNCHER(rhs_ammo_aim120, rhs_ammo_Sidewinder_AA);
+    LAUNCHER(rhs_ammo_aim120_offset0, rhs_ammo_aim120);
+    LAUNCHER(rhs_ammo_Sidewinder_AA_delay, rhs_ammo_Sidewinder_AA);
+    LAUNCHER(rhs_ammo_Sidewinder_AA_heli, rhs_ammo_Sidewinder_AA);
+    LAUNCHER(rhs_ammo_Sidewinder_AA_a10, rhs_ammo_Sidewinder_AA);
+    LAUNCHER(rhs_ammo_Hydra_HE_Heli, Rocket_04_HE_F);
+    LAUNCHER(RHS_M151_Ammo_MELB, rhs_ammo_Hydra_HE_Heli);
+    LAUNCHER(RHS_M229_Ammo_MELB, RHS_M151_Ammo_MELB);
+    LAUNCHER(RHS_DAGR_Ammo_MELB, MissileBase);
+    LAUNCHER(rhs_ammo_Hellfire_AT, Missile_AGM_02_F);
+    LAUNCHER(RHS_MELB_AGM_114K, rhs_ammo_Hellfire_AT);
+    LAUNCHER(rhs_ammo_agm65, rhs_ammo_Hellfire_AT);
+    LAUNCHER(rhs_ammo_agm65_x3, rhs_ammo_agm65);
+    LAUNCHER(rhs_ammo_agm65_offset0, rhs_ammo_agm65);
+    LAUNCHER(rhs_ammo_Hydra_M151_Heli, rhs_ammo_Hydra_HE_Heli);
+    LAUNCHER(rhs_ammo_Hydra_M229_Heli, rhs_ammo_Hydra_M151_Heli);
+    LAUNCHER(rhs_ammo_Hydra_HE_A10, rhs_ammo_Hydra_HE_Heli);
+    LAUNCHER(rhs_ammo_Stinger_AA, M_Titan_AA);
+    LAUNCHER(rhs_ammo_ANALQ131, MissileBase);
+    LAUNCHER(rhs_pod_hellfire_4, rhs_ammo_ANALQ131);
+    LAUNCHER(rhs_pod_hellfire_2, rhs_pod_hellfire_4);
+    LAUNCHER(rhs_pod_FFAR_19, rhs_pod_hellfire_4);
+    LAUNCHER(rhs_pod_FFAR_7, rhs_pod_hellfire_4);
+    LAUNCHER(rhs_pod_AGM65, rhs_pod_hellfire_4);
+    LAUNCHER(rhs_pod_DAGR, rhs_pod_AGM65);
+    LAUNCHER(rhs_pod_FFAR_19_green, rhs_pod_hellfire_4);
+    LAUNCHER(rhs_pod_FFAR_7_green, rhs_pod_hellfire_4);
+    LAUNCHER(rhs_pod_hellfire_green, rhs_pod_hellfire_4);
+    LAUNCHER(rhs_pod_AGM65x3_rack, rhs_pod_AGM65);
+    LAUNCHER(rhs_pod_LAU68, rhs_pod_AGM65x3_rack);
+    LAUNCHER(rhs_pod_empty, rhs_pod_AGM65x3_rack);
+    LAUNCHER(rhs_mount_empty, rhs_pod_empty);
+    LAUNCHER(rhs_FFAR_pod_empty, rhs_pod_empty);
+    LAUNCHER(rhs_DAGR_pod_empty, rhs_pod_empty);
+    LAUNCHER(rhs_pod_empty_agm65, rhs_pod_empty);
+    LAUNCHER(rhs_ammo_gbu12, Bomb_04_F);
+    LAUNCHER(RHS_9M79_1_F, rhs_ammo_ch29);
+    LAUNCHER(RHS_9M79_1_K, RHS_9M79_1_F);
+    LAUNCHER(RHS_9M79B, RHS_9M79_1_F);
+    LAUNCHER(rhs_ammo_M136_hedp_rocket, rhs_ammo_M136_rocket);
+    LAUNCHER(rhs_ammo_M136_hp_rocket, rhs_ammo_M136_rocket);
+    LAUNCHER(rhs_ammo_m72a7_rocket, rhs_ammo_M136_hedp_rocket);
+    LAUNCHER(rhsammo_fim92_missile, M_Titan_AA);
+    LAUNCHER(rhs_ammo_M_fgm148_AT, M_Titan_AT);
+    LAUNCHER(rhs_ammo_M_fgm172a_AT, M_NLAW_AT_F);
+    LAUNCHER(rhs_ammo_M_fgm172b_MPV, rhs_ammo_M_fgm172a_AT);
+    LAUNCHER(rhs_ammo_smaw_HEAA, RocketBase);
+    LAUNCHER(rhs_ammo_smaw_HEDP, RocketBase);
+    LAUNCHER(rhs_ammo_smaw_SR, RocketBase);
+    LAUNCHER(rhs_ammo_empty, MissileBase);
+    LAUNCHER(ACE_Hydra70_DAGR, M_PG_AT);
+    LAUNCHER(ACE_Hellfire_AGM114K, ACE_Hydra70_DAGR);
+    LAUNCHER(tf47_m3maaws_HEAT, RocketBase);
+    LAUNCHER(tf47_m3maaws_HEDP, RocketBase);
+    LAUNCHER(tf47_m3maaws_HE, RocketBase);
+    LAUNCHER(tf47_m3maaws_SMOKE, RocketBase);
+    LAUNCHER(tf47_m3maaws_ILLUM, RocketBase);
+    LAUNCHER(tf47_m3maaws_AreaDefense, RocketBase);
+    LAUNCHER(UK3CB_R_AT4_AT, RocketBase);
+    LAUNCHER(UK3CB_R_AT4_AP, UK3CB_R_AT4_AT);
+    LAUNCHER(UK3CB_M_Javelin_AT, ACE_Javelin_FGM148);
+    LAUNCHER(UK3CB_M_NLAW_AT, M_NLAW_AT_F);
 };
