@@ -3,16 +3,6 @@ private _br = toString [13, 10];
 private _spacing = "    ";
 private _output = "class CfgAmmo {" + _br;
 
-ARC_AI_Insert = {
-    params [
-        ["_array", []],
-        ["_index", 0],
-        ["_value", -1]
-    ];
-
-    ((_array select [0, _index]) + [_value] + (_array select [_index, 1E6]))
-};
-
 {
     private _mag = _x;
     private _magAmmoClass = getText (_mag >> "ammo");
@@ -109,6 +99,7 @@ private _patches = [];
 } count _parsedWeapons;
 
 _output = _output + "};";
+// copyToClipboard _output;
 
 _output = "";
 
