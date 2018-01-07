@@ -91,7 +91,8 @@ class CfgPatches {
             "A3_Weapons_F_Orange_Items",
             "A3_Characters_F_Orange",
             "A3_Characters_F_Orange_Headgear",
-            "A3_Characters_F_Orange_Vests"
+            "A3_Characters_F_Orange_Vests",
+            "ace_ai"
         };
     };
 };
