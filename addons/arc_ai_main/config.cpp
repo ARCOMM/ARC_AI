@@ -171,7 +171,8 @@ class CfgPatches {
             "CUP_Creatures_Military_BAF",
             "CUP_Creatures_Military_CDF",
             "CUP_Creatures_Military_Chedaki",
-            "CUP_Creatures_Military_Delta"
+            "CUP_Creatures_Military_Delta",
+            "arc_ai"
         };
     };
 };
