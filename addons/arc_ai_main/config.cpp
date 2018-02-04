@@ -40,10 +40,8 @@ class CfgPatches {
             "CUP_Weapons_NVG",
             "CUP_CWA_Misc",
             "A3_Drones_F_Weapons_F_Gamma_Items",
-            "rhsusf_c_heavyweapons",
             "A3_Data_F_Curator",
             "A3_Data_F_Curator_Virtual",
-            "rhsusf_c_airweapons",
             "A3_Weapons_F_Kart_Pistols_Pistol_Signal_F",
             "CUP_Weapons_Compact",
             "CUP_Weapons_CZ750",
@@ -79,9 +77,6 @@ class CfgPatches {
             "A3_Weapons_F_Mark_Machineguns_MMG_02",
             "A3_Weapons_F_Mark_Rifles_MX",
             "CUP_Weapons_AA12",
-            "rhs_c_heavyweapons",
-            "rhs_c_weapons",
-            "rhsusf_c_weapons",
             "A3_Weapons_F_Exp",
             "A3_Weapons_F_Exp_Launchers_RPG32",
             "A3_Weapons_F_Exp_Launchers_RPG7",
@@ -99,13 +94,9 @@ class CfgPatches {
             "A3_Weapons_F_Exp_Rifles_SPAR_02",
             "A3_Weapons_F_Exp_Rifles_SPAR_03",
             "A3_Weapons_F_Exp_SMGs_SMG_05",
-            "rhs_c_troops",
-            "rhsusf_c_troops",
             "A3_Characters_F_Exp",
             "A3_Characters_F_Exp_Headgear",
             "A3_Characters_F_Exp_Vests",
-            "rhs_c_rva",
-            "rhsusf_c_mrzr",
             "A3_Weapons_F_Jets",
             "CUP_Weapons_East_Attachments",
             "CUP_Weapons_Glock17",
@@ -171,8 +162,7 @@ class CfgPatches {
             "CUP_Creatures_Military_BAF",
             "CUP_Creatures_Military_CDF",
             "CUP_Creatures_Military_Chedaki",
-            "CUP_Creatures_Military_Delta",
-            "arc_ai"
+            "CUP_Creatures_Military_Delta"
         };
     };
 };
