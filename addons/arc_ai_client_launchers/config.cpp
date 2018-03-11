@@ -149,5 +149,4 @@ class CfgAmmo {
     LAUNCHER(BombBase, BombCore);
     LAUNCHER(ACE_Hellfire_AGM114N, ACE_Hellfire_AGM114K);
     LAUNCHER(ace_maverick_L, Missile_AGM_02_F);
-    LAUNCHER(rhs_ammo_M_fgm148_AT, MissileBase);
 };
