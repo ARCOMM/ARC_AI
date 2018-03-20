@@ -5,6 +5,7 @@
     class ##CNAME##: ##PNAME## {\
         airLock = 1;\
         allowAgainstInfantry = 1;\
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";\
         soundFly[] = {"A3\Sounds_F\weapons\Rockets\rocket_fly_1",6,1.5,400};\
         whistleDist = 24;\
         cost = LAUNCHER_COST;\

@@ -62,6 +62,9 @@ class CfgAmmo {
     LAUNCHER(Rocket_03_AP_F, Rocket_04_AP_F);
     LAUNCHER(M_RIM_116, M_Air_AA);
     LAUNCHER(M_RIM_7, M_RIM_116);
+    LAUNCHER(M151_Ammo_MELB, M_AT);
+    LAUNCHER(MELB_AGM_114K, MissileBase);
+    LAUNCHER(DAGR_Ammo_MELB, MissileBase);
     LAUNCHER(CUP_M_9K32_Strela_2_AA, M_Titan_AA);
     LAUNCHER(CUP_M_9K38_Igla_AA, M_Titan_AA);
     LAUNCHER(CUP_M_9M311_Tunguska_AA, M_Titan_AA);
@@ -149,4 +152,5 @@ class CfgAmmo {
     LAUNCHER(BombBase, BombCore);
     LAUNCHER(ACE_Hellfire_AGM114N, ACE_Hellfire_AGM114K);
     LAUNCHER(ace_maverick_L, Missile_AGM_02_F);
+    LAUNCHER(ace_kh25ml, Missile_AGM_01_F);
 };
